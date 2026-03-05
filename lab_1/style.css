@@ -1,0 +1,151 @@
+body {
+    background-image: url("11.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.my-btn { 
+    margin-right: 8px;           
+    margin-top: 8px;         
+    width: 65px;            
+    height: 65px;         
+    border-radius: 15px;     
+    border: none;
+    background: #f0e6d2;         
+    color: #2c3e50;          
+    font-size: 1.8rem;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;   
+}
+
+
+.my-btn:hover {
+    background: #d4c5a8;          
+    transform: scale(1.05);     
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+
+.my-btn:active {
+    filter: brightness(90%);
+    transform: scale(0.98);
+}
+
+
+.my-btn.primary { 
+    background: #6c5ce7;         
+    color: rgb(91, 62, 62);
+}
+
+.my-btn.primary:hover {
+    background: #5849c2;
+}
+
+.my-btn.secondary { 
+    background: #a29bfe;         
+    color: #2c3e50;
+}
+
+.my-btn.secondary:hover {
+    background: #8e85e6;
+}
+
+.my-btn.execute { 
+    width: 138px;            
+    border-radius: 15px;
+    background: #490d0d;        
+    color: white;
+}
+
+.my-btn.execute:hover {
+    background: #c0392b;
+}
+
+.history { 
+    width: 276px;                  
+    height: 90px;               
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #225b73;        
+    color: #2c3e50;
+    font-size: 2.5rem;            
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #b2bec3;
+    padding: 15px;
+    text-align: right;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.signature {
+    width: 276px;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.list {
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 138px;              
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    background: #f0e6d2;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.about {
+    margin-top: 15px;
+    width: 276px;
+    padding: 10px;
+    background: #f0e6d2;
+    border-radius: 15px;
+    color: #0663c0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.about summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #6c5ce7;
+}
+
+.goals {
+    color: #e84342;
+    font-weight: bold;
+}
+
+.container {
+    width: 320px;          
+    background: white;            
+    border-radius: 25px;
+    padding: 25px 20px 20px 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-result {
+    font-size: 2.5rem;
+    text-align: right;
+    color: #495969;
+}
