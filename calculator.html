@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coop Tech Media</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="top-nav">
+        <a class="logo" href="#">COOP TECH MEDIA</a>
+        <ul class="top-nav-links">
+            <li><a href="index.html">О проекте</a></li>
+            <li><a href="calculator.html" class="active">Калькулятор</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="divider"></div>
+
+    <nav class="sub-nav">
+    <ul class="sub-nav-links">
+        <li><a href="#">Все статьи</a></li>
+        <li><a href="#" class="active">Технологии</a></li>
+        <li><a href="#">Производство</a></li>
+        <li><a href="#">Материалы</a></li>
+        <li><a href="#">Аналитика</a></li>
+        <li><a href="#">Новости</a></li>
+    </ul>
+    </nav>
+
+<div class="calc-page" id="page-calc">
+
+  <div class="calc-wrapper">
+
+    <!-- Display -->
+    <div class="calc-display">
+      <div class="history-text">50 + 0</div>
+      <div class="current-val">50</div>
+    </div>
+
+    <div class="calc-row">
+      <button class="calc-btn op">C</button>
+      <button class="calc-btn op">+/-</button>
+      <button class="calc-btn op">%</button>
+      <button class="calc-btn accent">÷</button>
+    </div>
+
+    <div class="calc-row">
+      <button class="calc-btn digit">7</button>
+      <button class="calc-btn digit">8</button>
+      <button class="calc-btn digit">9</button>
+      <button class="calc-btn accent">×</button>
+    </div>
+
+    <div class="calc-row">
+      <button class="calc-btn digit">4</button>
+      <button class="calc-btn digit">5</button>
+      <button class="calc-btn digit">6</button>
+      <button class="calc-btn accent">−</button>
+    </div>
+
+    <div class="calc-row">
+      <button class="calc-btn digit">1</button>
+      <button class="calc-btn digit">2</button>
+      <button class="calc-btn digit">3</button>
+      <button class="calc-btn accent">+</button>
+    </div>
+
+    <div class="calc-row">
+      <button class="calc-btn digit">0</button>
+      <button class="calc-btn digit">.</button>
+      <button class="calc-btn equal">=</button>
+    </div>
+
+    <div class="calc-row three-cols" style="margin-top:4px;">
+      <select class="calc-select" style="grid-column: span 2;">
+        <option>Обычный</option>
+        <option>Инженерный</option>
+        <option>Программный</option>
+      </select>
+      <button class="calc-btn op">☀</button>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
