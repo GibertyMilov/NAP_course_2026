@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coop Tech Media — Калькулятор</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <nav class="top-nav">
+        <a class="logo" href="index.html">COOP TECH MEDIA</a>
+        <ul class="top-nav-links">
+            <li><a href="index.html">О проекте</a></li>
+            <li><a href="calculator.html" class="active">Калькулятор</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="divider"></div>
+
+    <nav class="sub-nav">
+        <ul class="sub-nav-links">
+            <li><a href="#">Все статьи</a></li>
+            <li><a href="#">Технологии</a></li>
+            <li><a href="#">Производство</a></li>
+            <li><a href="#">Материалы</a></li>
+            <li><a href="#">Аналитика</a></li>
+            <li><a href="#">Новости</a></li>
+        </ul>
+    </nav>
+
+    <div class="calc-page" id="page-calc">
+        <div class="calc-wrapper">
+
+            <div class="calc-display">
+                <div class="history-text" id="history-text"></div>
+                <div class="current-val" id="result">0</div>
+            </div>
+
+            <div class="calc-row">
+                <button id="btn_op_clear"   class="calc-btn op">C</button>
+                <button id="btn_op_sign"    class="calc-btn op">+/-</button>
+                <button id="btn_op_percent" class="calc-btn op">%</button>
+                <button id="btn_op_div"     class="calc-btn accent">÷</button>
+            </div>
+
+            <div class="calc-row">
+                <button id="btn_digit_7"  class="calc-btn digit">7</button>
+                <button id="btn_digit_8"  class="calc-btn digit">8</button>
+                <button id="btn_digit_9"  class="calc-btn digit">9</button>
+                <button id="btn_op_mult"  class="calc-btn accent">×</button>
+            </div>
+
+            <div class="calc-row">
+                <button id="btn_digit_4"  class="calc-btn digit">4</button>
+                <button id="btn_digit_5"  class="calc-btn digit">5</button>
+                <button id="btn_digit_6"  class="calc-btn digit">6</button>
+                <button id="btn_op_minus" class="calc-btn accent">−</button>
+            </div>
+
+            <div class="calc-row">
+                <button id="btn_digit_1"  class="calc-btn digit">1</button>
+                <button id="btn_digit_2"  class="calc-btn digit">2</button>
+                <button id="btn_digit_3"  class="calc-btn digit">3</button>
+                <button id="btn_op_plus"  class="calc-btn accent">+</button>
+            </div>
+
+            <div class="calc-row">
+                <button id="btn_digit_0"    class="calc-btn digit">0</button>
+                <button id="btn_digit_dot"  class="calc-btn digit">.</button>
+                <button id="btn_op_equal"   class="calc-btn equal">=</button>
+            </div>
+
+            <div class="calc-row">
+                <button id="btn_op_accplus"  class="calc-btn op">A+</button>
+                <button id="btn_op_accminus" class="calc-btn op">A−</button>
+                <button id="btn_digit_000"   class="calc-btn digit">000</button>
+                <button id="btn_op_custom"   class="calc-btn op">1/x</button>
+            </div>
+
+            <div class="calc-row three-cols" style="margin-top:4px;">
+                <select id="list" class="calc-select" style="grid-column: span 2;">
+                    <option value="1">Обычный</option>
+                    <option value="2">Инженерный</option>
+                    <option value="3">Программный</option>
+                </select>
+                <button id="switch" class="calc-btn op">☀</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
